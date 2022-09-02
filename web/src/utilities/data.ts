@@ -1,3 +1,7 @@
+import serviceImg1 from "../assets/images/service-1.jpg";
+import serviceImg2 from "../assets/images/service-2.jpg";
+import serviceImg3 from "../assets/images/service-3.jpg";
+
 const data = {
   clinicName: "FitPhyisio",
   location: "1234 Jhamsikhel Street, Lalitpur",
@@ -39,6 +43,41 @@ const data = {
       { key: "__introduction_point_z_2", value: "Lorem ipsum dolor sit amet." },
     ],
   },
+  services: [
+    {
+      id: "__service_x_0",
+      title: "Card Title",
+      image: serviceImg1,
+      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      points: [
+        { id: "__service_0_point_x_0", value: "Cras justo odio" },
+        { id: "__service_0_point_y_1", value: "Dapibus ac facilisis in" },
+        { id: "__service_0_point_z_2", value: "Vestibulum at eros" },
+      ],
+    },
+    {
+      id: "__service_y_1",
+      title: "Card Title",
+      image: serviceImg2,
+      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      points: [
+        { id: "__service_1_point_x_0", value: "Cras justo odio" },
+        { id: "__service_1_point_y_1", value: "Dapibus ac facilisis in" },
+        { id: "__service_1_point_z_2", value: "Vestibulum at eros" },
+      ],
+    },
+    {
+      id: "__service_z_2",
+      title: "Card Title",
+      image: serviceImg3,
+      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      points: [
+        { id: "__service_2_point_x_0", value: "Cras justo odio" },
+        { id: "__service_2_point_y_1", value: "Dapibus ac facilisis in" },
+        { id: "__service_2_point_z_2", value: "Vestibulum at eros" },
+      ],
+    },
+  ],
 };
 
 export default data;

@@ -8,6 +8,8 @@ import Header from "./components/layout/header/Header";
 import Highlight from "./components/highlights/Highlight";
 import Introduction from "./components/introduction/Introduction";
 import Services from "./components/services/Services";
+import Testimonials from "./components/testimonials/Testimonials";
+import Footer from "./components/layout/footer/Footer";
 
 const App: FC = () => {
   return (
@@ -18,7 +20,9 @@ const App: FC = () => {
         <Highlight />
         <Introduction />
         <Services />
+        <Testimonials />
       </main>
+      <Footer />
     </div>
   );
 };

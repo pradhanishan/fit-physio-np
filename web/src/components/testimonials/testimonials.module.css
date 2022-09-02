@@ -1,0 +1,9 @@
+.testimonials {
+  padding: 1rem;
+  background-color: var(--c-grey);
+}
+
+.testimonials-header {
+  font-weight: bold;
+  color: var(--c-maroon);
+}

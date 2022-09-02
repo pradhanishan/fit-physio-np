@@ -1,0 +1,10 @@
+.social-media-list {
+  display: flex;
+}
+
+.social-media-icon-container {
+  background-color: var(--c-maroon);
+  border-radius: 25%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
