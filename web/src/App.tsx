@@ -7,6 +7,8 @@ import Header from "./components/layout/header/Header";
 // import Slogan from "./components/slogan/Slogan";
 import Highlight from "./components/highlights/Highlight";
 import Introduction from "./components/introduction/Introduction";
+import Services from "./components/services/Services";
+
 const App: FC = () => {
   return (
     <div className={classes.app}>
@@ -15,6 +17,7 @@ const App: FC = () => {
         {/* <Slogan /> */}
         <Highlight />
         <Introduction />
+        <Services />
       </main>
     </div>
   );
