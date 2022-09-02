@@ -1,0 +1,25 @@
+.greet {
+  background-color: var(--c-black);
+  color: var(--c-white);
+  padding: 1rem;
+}
+
+.nav-greet,
+.nav-greet-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+@media screen and (min-width: 1025px) {
+  .nav-greet,
+  .nav-greet-info {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-greet-info span {
+    margin-right: 1rem;
+  }
+}

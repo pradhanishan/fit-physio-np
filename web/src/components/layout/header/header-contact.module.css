@@ -1,0 +1,38 @@
+.header-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-contact-child {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.header-contact-icon-wrapper {
+  padding: 1rem;
+  background-color: #dddddd;
+  border-radius: 25px;
+  margin-right: 1rem;
+}
+
+.header-contact-icon {
+  color: var(--c-maroon);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 481px) {
+  .header-contact {
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
