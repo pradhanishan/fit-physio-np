@@ -1,0 +1,26 @@
+.highlight-card-r,
+.highlight-card-y,
+.highlight-card-w {
+  padding: 1rem;
+}
+
+.highlight-card-r {
+  background-color: var(--c-maroon);
+  color: var(--c-white);
+}
+
+.highlight-card-y {
+  background-color: var(--c-yellow);
+}
+
+.highlight-card-w {
+  background-color: var(--c-white);
+}
+
+.highlight-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin: 2rem 0;
+}

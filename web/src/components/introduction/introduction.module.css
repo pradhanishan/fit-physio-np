@@ -1,0 +1,16 @@
+.introduction {
+  padding: 1rem;
+}
+
+.introduction-header {
+  color: var(--c-maroon);
+  font-weight: bold;
+}
+
+.introduction-welcome-header {
+  margin: 1rem 0;
+}
+
+.introduction-slogan-header {
+  margin: 2rem 0;
+}
