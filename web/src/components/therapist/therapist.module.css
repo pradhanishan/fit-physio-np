@@ -1,0 +1,15 @@
+.therapist {
+  height: 40vh;
+  background-color: var(--c-white);
+  color: var(--c-black);
+  padding: 1rem;
+}
+
+.therapist-header {
+  color: var(--c-maroon);
+  font-weight: bold;
+}
+
+.therapist-list-item {
+  list-style: none;
+}

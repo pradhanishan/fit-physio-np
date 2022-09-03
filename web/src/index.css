@@ -2,14 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
   --c-black: #212121;
   --c-white: #ffffff;
   --c-maroon: #850e35;
-  --c-yellow: #fedb39;
+  --c-yellow: #ffe162;
   --c-grey: #dfdfde;
+  --c-green: #6bcb77;
+  --c-fade: #7d9d9c;
+  --c-blue: #9ed2c6;
 }
 
 html {

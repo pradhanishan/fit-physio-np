@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--c-black);
+  color: var(--c-white);
+  padding: 1rem;
+  height: 350px;
+}
+
+.footer-container {
+  position: relative;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "c1"
+    "c2"
+    "c3"
+    "c4";
+
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 481px) {
+  .footer-container {
+    grid-template-areas:
+      "c1 c2"
+      "c3 c3"
+      "c4 c4";
+  }
+
+  .footer-child-1 {
+    grid-area: c1;
+  }
+  .footer-child-2 {
+    grid-area: c2;
+  }
+  .footer-child-3 {
+    grid-area: c3;
+  }
+  .footer-child-4 {
+    grid-area: c4;
+  }
+}

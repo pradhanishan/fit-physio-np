@@ -1,0 +1,9 @@
+.timings {
+  text-align: left;
+  color: var(--c-fade);
+}
+
+.timings-header {
+  color: var(--c-fade);
+  font-weight: bold;
+}

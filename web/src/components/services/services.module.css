@@ -1,0 +1,26 @@
+.services {
+  padding: 1rem;
+}
+
+.service-header {
+  color: var(--c-maroon);
+  font-weight: bold;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-header-secondary {
+  color: var(--c-black);
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 481px) {
+  .services-container {
+    flex-direction: row;
+  }
+}

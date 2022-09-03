@@ -1,0 +1,17 @@
+.developer {
+  position: absolute;
+  bottom: 0;
+  color: var(--c-fade);
+  width: 100%;
+  text-align: center;
+}
+
+.developer-link {
+  text-decoration: none;
+  color: var(--c-fade);
+}
+
+.developer-link:hover,
+.developer-link:focus {
+  color: var(--c-fade);
+}

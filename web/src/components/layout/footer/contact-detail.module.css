@@ -1,0 +1,34 @@
+.contact-detail {
+  text-align: left;
+}
+
+.contact-detail-icon {
+  color: var(--c-fade);
+  margin-right: 1rem;
+  font-size: 22px;
+}
+
+.contact-detail-text {
+  color: var(--c-fade);
+  font-style: italic;
+}
+
+.contact-detail-icon-green {
+  color: var(--c-green);
+  margin-right: 1rem;
+  font-size: 22px;
+}
+
+.contact-detail-text-link {
+  text-decoration: none;
+}
+
+.contact-detail-link-text {
+  color: var(--c-fade);
+  font-weight: bold;
+}
+
+.contact-detail-link-text:hover,
+.contact-detail-link-text:focus {
+  color: var(--c-green);
+}
