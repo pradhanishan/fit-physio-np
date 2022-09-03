@@ -1,6 +1,7 @@
 .developer {
   position: absolute;
   bottom: 0;
+  color: var(--c-fade);
   width: 100%;
   text-align: center;
 }

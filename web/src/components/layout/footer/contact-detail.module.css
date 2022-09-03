@@ -3,13 +3,13 @@
 }
 
 .contact-detail-icon {
-  color: var(--c-yellow);
+  color: var(--c-fade);
   margin-right: 1rem;
   font-size: 22px;
 }
 
 .contact-detail-text {
-  color: var(--c-white);
+  color: var(--c-fade);
   font-style: italic;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .contact-detail-link-text {
-  color: var(--c-white);
+  color: var(--c-fade);
   font-weight: bold;
 }
 

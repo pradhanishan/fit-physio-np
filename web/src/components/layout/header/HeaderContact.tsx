@@ -32,7 +32,7 @@ const HeaderContact: FC = () => {
           <MdCall className={classes["header-contact-icon"]} />
         </div>
         <div className={classes["header-contact-text"]}>
-          <h3 className={classes["header-contact-text-bold"]}>Contact Us</h3>
+          <h3 className={classes["header-contact-text-bold"]}>Book Appointment</h3>
           <span>{data.contact.number}</span>
         </div>
       </div>
