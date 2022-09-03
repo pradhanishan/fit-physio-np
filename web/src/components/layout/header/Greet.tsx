@@ -12,10 +12,17 @@ const Greet: FC = () => {
           <span>Welcome to the {data.clinicName} physiotherapy clinic</span>
         </div>
         <div className={classes["nav-greet-info"]}>
-          <span>
-            <MdLocationPin style={{ marginRight: "1rem" }} />
-            {data.location}
-          </span>
+          <a
+            className={classes["nav-location-link"]}
+            href={data.urls.googleMapUrl.value}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>
+              <MdLocationPin style={{ marginRight: "1rem" }} />
+              {data.location}
+            </span>
+          </a>
           <span>
             <BsClockHistory style={{ marginRight: "1rem" }} />
             {data.timing.brief}

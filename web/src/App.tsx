@@ -10,6 +10,7 @@ import Introduction from "./components/introduction/Introduction";
 import Services from "./components/services/Services";
 import Clients from "./components/clients/Clients";
 import Footer from "./components/layout/footer/Footer";
+import Therapist from "./components/therapist/Therapist";
 
 const App: FC = () => {
   return (
@@ -20,7 +21,12 @@ const App: FC = () => {
         <Highlight />
         <Introduction />
         <Services />
+        <Therapist />
         <Clients />
+
+        <div className={classes["blank-space"]}>
+          <section>{/* FUTURE CONTENT GOES HERE */}</section>
+        </div>
       </main>
       <Footer />
     </div>

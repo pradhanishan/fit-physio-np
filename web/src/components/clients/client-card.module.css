@@ -21,7 +21,7 @@
 
   .client-card:hover,
   .client-card:focus {
-    border: 5px solid var(--c-maroon);
-    box-shadow: 5px 10px var(--c-maroon);
+    border: 3.5px solid var(--c-blue);
+    box-shadow: 3.5px 10px var(--c-blue);
   }
 }

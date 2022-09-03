@@ -8,6 +8,10 @@
   color: var(--c-maroon);
 }
 
+.clients-header-secondary {
+  margin-bottom: 1rem;
+}
+
 .clients-container {
   display: flex;
   flex-direction: column;

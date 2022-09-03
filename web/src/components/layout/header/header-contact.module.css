@@ -12,7 +12,7 @@
 
 .header-contact-icon-wrapper {
   padding: 1rem;
-  background-color: #dddddd;
+  background-color: var(--c-grey);
   border-radius: 25px;
   margin-right: 1rem;
 }
@@ -32,10 +32,6 @@
   color: var(--c-maroon);
 }
 
-span {
-  white-space: nowrap;
-}
-
 @media screen and (min-width: 481px) {
   .header-contact {
     grid-template-columns: 1fr 1fr;
@@ -50,4 +46,9 @@ span {
     justify-content: space-between;
     padding: 0 4%;
   }
+}
+
+.header-contact-icon-wrapper:hover,
+.header-contact-icon-wrapper:focus {
+  background-color: var(--c-fade);
 }

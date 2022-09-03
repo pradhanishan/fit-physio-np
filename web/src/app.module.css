@@ -8,6 +8,11 @@
   padding: 1rem;
 }
 
+.blank-space {
+  height: 10vh;
+  background-color: var(--c-grey);
+}
+
 @media screen and (min-width: 769px) {
   /* contents insidee main should have a margin of 10% on left and right on bigger screens */
   .app-body {

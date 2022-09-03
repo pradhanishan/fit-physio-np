@@ -21,6 +21,9 @@ const data = {
     linkedinUrl: {
       value: "",
     },
+    tiktokUrl: {
+      value: "",
+    },
   },
   timing: {
     brief: "Mon to Fri 10:00 AM - 5:00 PM NPT",
@@ -112,6 +115,15 @@ const data = {
       image: patient3,
       alt: "patient-3 image",
     },
+  ],
+  developer: {
+    name: "ishanpradhan",
+    linkedinUrl: "https://www.linkedin.com/in/ishanpradhan/",
+  },
+  therapist: [
+    { key: "__about_therapist_x_0", value: "lorem asldkfjaslkfjasldk" },
+    { key: "__about_therapist_y_1", value: "lorem asldkfjaslkfjasldk" },
+    { key: "__about_therapist_z_2", value: "lorem asldkfjaslkfjasldk" },
   ],
 };
 

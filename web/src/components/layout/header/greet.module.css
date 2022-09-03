@@ -1,6 +1,7 @@
 .greet {
   background-color: var(--c-black);
-  color: var(--c-white);
+  font-weight: bold;
+  color: var(--c-fade);
   padding: 1rem;
 }
 
@@ -10,6 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
+}
+
+.nav-location-link {
+  text-decoration: none;
+  color: var(--c-fade);
 }
 
 @media screen and (min-width: 1025px) {
@@ -22,4 +28,9 @@
   .nav-greet-info span {
     margin-right: 1rem;
   }
+}
+
+.nav-location-link :hover,
+.nav-location-link :focus {
+  color: var(--c-grey);
 }
