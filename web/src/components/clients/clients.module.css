@@ -1,0 +1,20 @@
+.clients {
+  padding: 1rem;
+  background-color: var(--c-grey);
+}
+
+.clients-header {
+  font-weight: bold;
+  color: var(--c-maroon);
+}
+
+.clients-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 769px) {
+  .clients-container {
+    flex-direction: row;
+  }
+}

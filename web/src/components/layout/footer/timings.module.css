@@ -1,0 +1,8 @@
+.timings {
+  text-align: left;
+}
+
+.timings-header {
+  color: var(--c-yellow);
+  font-weight: bold;
+}

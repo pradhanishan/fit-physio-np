@@ -1,12 +1,30 @@
 import serviceImg1 from "../assets/images/service-1.jpg";
 import serviceImg2 from "../assets/images/service-2.jpg";
 import serviceImg3 from "../assets/images/service-3.jpg";
+import patient1 from "../assets/images/patient-1.jpg";
+import patient2 from "../assets/images/patient-2.jpg";
+import patient3 from "../assets/images/patient-3.jpg";
 
 const data = {
   clinicName: "FitPhyisio",
-  location: "1234 Jhamsikhel Street, Lalitpur",
+  location: "Hasapota Ganesh Marg, Jhamsikhel",
+  urls: {
+    googleMapUrl: {
+      value: "https://goo.gl/maps/wgAwELRB31wGtvqm8",
+    },
+    facebookUrl: {
+      value: "",
+    },
+    instagramUrl: {
+      value: "",
+    },
+    linkedinUrl: {
+      value: "",
+    },
+  },
   timing: {
     brief: "Mon to Fri 10:00 AM - 5:00 PM NPT",
+    weekend: "Sat 10:00 AM - 2:00 PM NPT",
   },
   contact: {
     number: "+977-9841092994",
@@ -76,6 +94,23 @@ const data = {
         { id: "__service_2_point_y_1", value: "Dapibus ac facilisis in" },
         { id: "__service_2_point_z_2", value: "Vestibulum at eros" },
       ],
+    },
+  ],
+  clients: [
+    {
+      id: "__client_x_0",
+      image: patient1,
+      alt: "patient-1 image",
+    },
+    {
+      id: "__client_y_1",
+      image: patient2,
+      alt: "patient-2 image",
+    },
+    {
+      id: "__client_z_2",
+      image: patient3,
+      alt: "patient-3 image",
     },
   ],
 };

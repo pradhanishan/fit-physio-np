@@ -23,6 +23,15 @@
   font-size: 30px;
 }
 
+.header-contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--c-maroon);
+}
+
 @media screen and (min-width: 481px) {
   .header-contact {
     align-items: center;

@@ -1,5 +1,6 @@
 .social-media-list {
   display: flex;
+  justify-content: center;
 }
 
 .social-media-icon-container {
@@ -7,4 +8,14 @@
   border-radius: 25%;
   padding: 0.5rem;
   margin-right: 1rem;
+}
+
+.social-medial-link {
+  text-decoration: none;
+  color: var(--c-white);
+}
+
+.social-media-icon-container :hover,
+.social-media-icon-container :focus {
+  color: var(--c-yellow);
 }
