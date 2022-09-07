@@ -11,7 +11,7 @@ interface IServiceCardProps {
 
 const ServiceCard: FC<IServiceCardProps> = (props) => {
   return (
-    <Card style={{ width: "18rem", margin: "0 1rem", marginTop: "1rem" }}>
+    <Card style={{ width: "18rem", height: "100%", margin: "0 1rem", marginTop: "1rem" }}>
       <Card.Img variant="top" src={props.image} />
 
       <Card.Body>

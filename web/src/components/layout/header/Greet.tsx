@@ -9,7 +9,7 @@ const Greet: FC = () => {
     <div className={classes.greet}>
       <nav className={classes["nav-greet"]}>
         <div>
-          <span>Welcome to the {data.clinicName} physiotherapy clinic</span>
+          <span>{data.clinicName}</span>
         </div>
         <div className={classes["nav-greet-info"]}>
           <a

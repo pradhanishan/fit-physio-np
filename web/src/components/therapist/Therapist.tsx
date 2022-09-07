@@ -5,7 +5,7 @@ import classes from "./therapist.module.css";
 const Therapist: FC = () => {
   return (
     <div className={classes.therapist}>
-      <h5 className={classes["therapist-header"]}>OUR LEAD THERAPIST</h5>
+      <h5 className={classes["therapist-header"]}>OUR THERAPIST</h5>
       <hr />
       <h2>Coach Prashansa</h2>
       <ul>

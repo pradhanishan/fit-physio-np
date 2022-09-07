@@ -25,7 +25,6 @@ const Services: FC = () => {
           })}
         </div>
       </div>
-      <div style={{ height: "3px", backgroundColor: "#7d9d9c" }}></div>
     </>
   );
 };

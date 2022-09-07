@@ -30,7 +30,7 @@
   }
 }
 
-.nav-location-link :hover,
-.nav-location-link :focus {
+.nav-location-link:hover,
+.nav-location-link:focus {
   color: var(--c-grey);
 }

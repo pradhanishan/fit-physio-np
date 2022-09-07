@@ -37,27 +37,26 @@ const data = {
     {
       id: "__highlight_x_0",
       variant: "r",
-      heading: "Lorem, ipsum dolor.",
+      heading: "Physiotherapy",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae deleniti odit? Nihil dolore omnis, obcaecati voluptas in quia minus, debitis quisquam iste delectus voluptate sit laboriosam deleniti ducimus architecto.",
+        "At Fitphysio Clinic, our mission is to find the root cause of your discomfort so you can recover faster.",
     },
     {
       id: "__highlight_y_1",
       variant: "y",
-      heading: "Lorem, ipsum dolor.",
+      heading: "Fitness",
       paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae deleniti odit? Nihil dolore omnis, obcaecati voluptas in quia minus, debitis quisquam iste delectus voluptate sit laboriosam deleniti ducimus architecto.",
+        "We facilitate you with a personalized diet and workout routine that will help you live a healthier lifestyle.",
     },
     {
       id: "__highlight_z_2",
       variant: "w",
-      heading: "Lorem, ipsum dolor.",
-      paragraph:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae deleniti odit? Nihil dolore omnis, obcaecati voluptas in quia minus, debitis quisquam iste delectus voluptate sit laboriosam deleniti ducimus architecto.",
+      heading: "Counselling",
+      paragraph: "We provide professional guidance in resolving problems to all age groups.",
     },
   ],
   introduction: {
-    slogan: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, reiciendis?",
+    slogan: "Fitness and nutrition are the groundwork for a healthy lifestyle",
     points: [
       { key: "__introduction_point_x_0", value: "Lorem ipsum dolor sit amet." },
       { key: "__introduction_point_y_1", value: "Lorem ipsum dolor sit amet." },
@@ -67,29 +66,33 @@ const data = {
   services: [
     {
       id: "__service_x_0",
-      title: "Card Title",
+      title: "Physiotherapy",
       image: serviceImg1,
-      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      description:
+        "Our physiotherapy program helps you reduce pain, avoid surgery, improve strength, reduce dependency on medicines, manage heart and diabetic conditions and ease pregnancy/ postpartum care. We make sure you stay fit at all ages and phases.",
       points: [
-        { id: "__service_0_point_x_0", value: "Cras justo odio" },
-        { id: "__service_0_point_y_1", value: "Dapibus ac facilisis in" },
-        { id: "__service_0_point_z_2", value: "Vestibulum at eros" },
+        { id: "__service_0_point_x_0", value: "Fitness" },
+        { id: "__service_0_point_y_1", value: "Pain reduction" },
+        { id: "__service_0_point_z_2", value: "Pregnancy and postpartum care" },
+        { id: "__service_0_point_a_3", value: "Heart / diabetic conditions" },
       ],
     },
     {
       id: "__service_y_1",
-      title: "Card Title",
+      title: "Weight Management",
       image: serviceImg2,
-      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      description:
+        "We assist on your weight loss journey by providing a diet plan and workout routine that best suits you. We monitor your progress and make improvements to your quality of life to achieve the best results.",
       points: [
-        { id: "__service_1_point_x_0", value: "Cras justo odio" },
-        { id: "__service_1_point_y_1", value: "Dapibus ac facilisis in" },
-        { id: "__service_1_point_z_2", value: "Vestibulum at eros" },
+        { id: "__service_1_point_x_0", value: "Diet plan" },
+        { id: "__service_1_point_y_1", value: "Weight loss" },
+        { id: "__service_1_point_z_2", value: "Weight maintenance" },
+        { id: "__service_1_point_a_3", value: "Nutrition" },
       ],
     },
     {
       id: "__service_z_2",
-      title: "Card Title",
+      title: "Natural Exercises",
       image: serviceImg3,
       description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
       points: [
