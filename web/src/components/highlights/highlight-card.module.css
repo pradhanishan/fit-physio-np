@@ -7,14 +7,20 @@
 .highlight-card-r {
   background-color: var(--c-maroon);
   color: var(--c-white);
+  text-align: center;
+  padding-bottom: 8rem;
 }
 
 .highlight-card-y {
   background-color: var(--c-yellow);
+  padding-bottom: 8rem;
+  text-align: center;
 }
 
 .highlight-card-w {
   background-color: var(--c-white);
+  padding-bottom: 8rem;
+  text-align: center;
 }
 
 .highlight-icon-container {

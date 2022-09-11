@@ -38,7 +38,6 @@ const Slogan: FC = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className={classes.stripe}></div>
     </>
   );
 };

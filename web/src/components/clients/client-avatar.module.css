@@ -8,15 +8,15 @@
 }
 
 .avatar-container-1 {
-  border: 3px solid var(--c-dark-green);
+  border: 2px solid var(--c-dark-green);
 }
 
 .avatar-container-2 {
-  border: 3px solid var(--c-purple);
+  border: 2px solid var(--c-purple);
 }
 
 .avatar-container-3 {
-  border: 3px solid var(--c-blue);
+  border: 2px solid var(--c-blue);
 }
 
 .avatar-image {

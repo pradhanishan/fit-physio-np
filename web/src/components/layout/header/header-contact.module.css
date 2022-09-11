@@ -49,6 +49,11 @@
   }
 }
 
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--c-fade);
+}
+
 .header-contact-icon-wrapper:hover,
 .header-contact-icon-wrapper:focus {
   background-color: var(--c-fade);

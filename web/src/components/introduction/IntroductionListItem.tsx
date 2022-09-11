@@ -9,7 +9,7 @@ interface IIntroductionListItemProps {
 const IntroductionListItem: FC<IIntroductionListItemProps> = (props) => {
   return (
     <li className={classes["list-item"]}>
-      <FaCheckCircle style={{ color: "#850e35", marginRight: "1rem" }} />
+      <FaCheckCircle style={{ color: "#b8405e", marginRight: "1rem" }} />
       {props.value}
     </li>
   );
