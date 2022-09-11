@@ -3,6 +3,17 @@
   font-weight: bold;
   color: var(--c-fade);
   padding: 1rem;
+
+  overflow: hidden;
+}
+
+.greet-mini {
+  width: 100%;
+  background-color: var(--c-grey);
+}
+
+.logo {
+  width: inherit;
 }
 
 .nav-greet,

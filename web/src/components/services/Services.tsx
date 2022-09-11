@@ -12,6 +12,7 @@ const Services: FC = () => {
         <h6 className={classes["service-header"]}>OUR SERVICES</h6>
         <h1 className={classes["service-header-secondary"]}>What we offer</h1>
         <div className={classes["services-container"]}>
+          {/* physiotherapy vitra ko points pathauna baki cha */}
           {data.services.map((service) => {
             return (
               <ServiceCard
