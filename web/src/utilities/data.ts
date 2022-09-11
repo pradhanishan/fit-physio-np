@@ -5,6 +5,8 @@ import patient1 from "../assets/images/patient-1.jpg";
 import patient2 from "../assets/images/patient-2.jpg";
 import patient3 from "../assets/images/patient-3.jpg";
 
+const dt = new Date();
+
 const data = {
   clinicName: "FitPhyisio",
   location: "Hasapota Ganesh Marg, Jhamsikhel",
@@ -26,7 +28,7 @@ const data = {
     },
   },
   timing: {
-    brief: "Mon to Fri 10:00 AM - 5:00 PM NPT",
+    brief: "Mon to Fri 10:00 AM - 7:00 PM NPT",
     weekend: "Sat 10:00 AM - 2:00 PM NPT",
   },
   contact: {
@@ -92,13 +94,13 @@ const data = {
     },
     {
       id: "__service_z_2",
-      title: "Natural Exercises",
+      title: "Pregnancy and postpartum care",
       image: serviceImg3,
-      description: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      description: "Weight loss after pregnancy is safe but requires attention and guidelines.",
       points: [
-        { id: "__service_2_point_x_0", value: "Cras justo odio" },
-        { id: "__service_2_point_y_1", value: "Dapibus ac facilisis in" },
-        { id: "__service_2_point_z_2", value: "Vestibulum at eros" },
+        { id: "__service_2_point_x_0", value: "Breating exercises" },
+        { id: "__service_2_point_y_1", value: "Diastasis recti" },
+        { id: "__service_2_point_z_2", value: "Kegel's exercise" },
       ],
     },
   ],
@@ -124,9 +126,10 @@ const data = {
     linkedinUrl: "https://www.linkedin.com/in/ishanpradhan/",
   },
   therapist: [
-    { key: "__about_therapist_x_0", value: "lorem asldkfjaslkfjasldk" },
-    { key: "__about_therapist_y_1", value: "lorem asldkfjaslkfjasldk" },
-    { key: "__about_therapist_z_2", value: "lorem asldkfjaslkfjasldk" },
+    { key: "__about_therapist_x_0", value: "Bachelors in Physiotherapy" },
+    { key: "__about_therapist_y_1", value: "Fitness and rehab professional" },
+    { key: "__about_therapist_z_2", value: `${dt.getFullYear() + 1 - 2016} years of experience` },
+    { key: "__about_therapist_a_3", value: "Certified kinesio taping practitioner" },
   ],
 };
 
