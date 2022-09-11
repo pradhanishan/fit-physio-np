@@ -7,7 +7,7 @@ const Therapist: FC = () => {
     <div className={classes.therapist}>
       <h5 className={classes["therapist-header"]}>OUR THERAPIST</h5>
       <hr />
-      <h2>Coach Prashansa</h2>
+      <h5>Coach Prashansa</h5>
       <ul>
         {data.therapist.map((d) => {
           return (

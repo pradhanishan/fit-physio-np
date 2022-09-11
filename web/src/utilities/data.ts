@@ -121,16 +121,28 @@ const data = {
   clients: [
     {
       id: "__client_x_0",
+      clientNumber: 1,
+      name: "client one ",
+      words:
+        "Hi Prashansa, just wanted to share a recent photo, I can feel my waist and legs have trimmed down, still concerned a little with the arm fat but overall I am very happy with the progress. Also, I got a lot of compliments from my family that I have shed quite a lot.",
       image: patient1,
       alt: "patient-1 image",
     },
     {
       id: "__client_y_1",
+      clientNumber: 2,
+      name: "client two",
+      words:
+        "Hi Prashansa, just wanted to share a recent photo, I can feel my waist and legs have trimmed down, still concerned a little with the arm fat but overall I am very happy with the progress. Also, I got a lot of compliments from my family that I have shed quite a lot.",
       image: patient2,
       alt: "patient-2 image",
     },
     {
       id: "__client_z_2",
+      clientNumber: 3,
+      name: "client three",
+      words:
+        "Hi Prashansa, just wanted to share a recent photo, I can feel my waist and legs have trimmed down, still concerned a little with the arm fat but overall I am very happy with the progress. Also, I got a lot of compliments from my family that I have shed quite a lot.",
       image: patient3,
       alt: "patient-3 image",
     },
@@ -142,7 +154,7 @@ const data = {
   therapist: [
     { key: "__about_therapist_x_0", value: "Bachelors in Physiotherapy" },
     { key: "__about_therapist_y_1", value: "Fitness and rehab professional" },
-    { key: "__about_therapist_z_2", value: `${dt.getFullYear() + 1 - 2016} years of experience` },
+    { key: "__about_therapist_z_2", value: `${dt.getFullYear() + 1 - 2016} years of experience in physiotherapy` },
     { key: "__about_therapist_a_3", value: "Certified kinesio taping practitioner" },
   ],
 };

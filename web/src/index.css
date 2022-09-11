@@ -7,13 +7,15 @@
 
 :root {
   --c-black: #212121;
-  --c-white: #ffffff;
+  --c-white: #fefbf6;
   --c-maroon: #850e35;
   --c-yellow: #ffe162;
   --c-grey: #dfdfde;
   --c-green: #6bcb77;
   --c-fade: #7d9d9c;
-  --c-blue: #9ed2c6;
+  --c-blue: #3ab4f2;
+  --c-dark-green: #019267;
+  --c-purple: #533483;
 }
 
 html {

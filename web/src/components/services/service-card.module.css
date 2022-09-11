@@ -1,0 +1,4 @@
+.service-card {
+  box-shadow: 0 0 3px var(--c-fade);
+  border-radius: 8px;
+}

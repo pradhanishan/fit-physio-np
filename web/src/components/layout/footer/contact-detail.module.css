@@ -14,7 +14,7 @@
 }
 
 .contact-detail-icon-green {
-  color: var(--c-green);
+  color: var(--c-dark-green);
   margin-right: 1rem;
   font-size: 22px;
 }
@@ -30,5 +30,5 @@
 
 .contact-detail-link-text:hover,
 .contact-detail-link-text:focus {
-  color: var(--c-green);
+  color: var(--c-dark-green);
 }

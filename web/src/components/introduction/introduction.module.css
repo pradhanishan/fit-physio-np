@@ -1,6 +1,6 @@
 .introduction {
   padding: 1rem;
-  background-color: var(--c-grey);
+  background-color: var(--c-white);
 }
 
 .introduction-header {
@@ -13,5 +13,5 @@
 }
 
 .introduction-slogan-header {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }

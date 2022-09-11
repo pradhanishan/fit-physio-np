@@ -8,7 +8,7 @@ import Slogan from "./components/slogan/Slogan";
 import Highlight from "./components/highlights/Highlight";
 import Introduction from "./components/introduction/Introduction";
 import Services from "./components/services/Services";
-import Clients from "./components/clients/Clients";
+import Testimonial from "./components/clients/Testimonial";
 import Footer from "./components/layout/footer/Footer";
 import Therapist from "./components/therapist/Therapist";
 
@@ -22,7 +22,7 @@ const App: FC = () => {
         <Introduction />
         <Services />
         <Therapist />
-        <Clients />
+        <Testimonial />
 
         <div className={classes["blank-space"]}>
           <section>{/* FUTURE CONTENT GOES HERE */}</section>

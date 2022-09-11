@@ -10,7 +10,7 @@
 
 .blank-space {
   height: 10vh;
-  background-color: var(--c-grey);
+  background-color: var(--c-white);
 }
 
 @media screen and (min-width: 769px) {

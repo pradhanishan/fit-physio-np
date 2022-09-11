@@ -3,11 +3,10 @@ import classes from "./greet.module.css";
 import data from "../../../utilities/data";
 import { MdLocationPin } from "react-icons/md";
 import { BsClockHistory } from "react-icons/bs";
-import logo from "../../../assets/fitphysio.svg";
 const Greet: FC = () => {
   return (
     <>
-      <div className={`${classes.greet} hide-on-smaller-device`}>
+      <div className={`${classes.greet}`}>
         <nav className={classes["nav-greet"]}>
           <div>
             <span>{data.clinicName}</span>
@@ -19,20 +18,17 @@ const Greet: FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <span>
+              <span className="hide-on-smaller-device">
                 <MdLocationPin style={{ marginRight: "1rem" }} />
                 {data.location}
               </span>
             </a>
-            <span>
+            <span className="hide-on-smaller-device">
               <BsClockHistory style={{ marginRight: "1rem" }} />
               {data.timing.brief}
             </span>
           </div>
         </nav>
-      </div>
-      <div className={`${classes["greet-mini"]} hide-on-larger-device`}>
-        <img src={logo} className={classes.logo} />
       </div>
     </>
   );

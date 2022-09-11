@@ -1,0 +1,21 @@
+.testimonial {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--c-white);
+}
+
+.testimonial-header {
+  background-color: var(--c-white);
+  color: var(--c-maroon);
+  font-weight: bold;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 481px) {
+  .testimonial {
+    flex-direction: row;
+  }
+}
