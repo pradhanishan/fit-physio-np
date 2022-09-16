@@ -12,4 +12,5 @@
 
 .therapist-list-item {
   list-style: none;
+  background-color: var(--c-white);
 }

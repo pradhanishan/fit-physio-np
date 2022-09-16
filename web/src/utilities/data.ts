@@ -15,13 +15,13 @@ const data = {
       value: "https://goo.gl/maps/wgAwELRB31wGtvqm8",
     },
     facebookUrl: {
-      value: "",
+      value: "https://www.facebook.com/fitphysio.np",
     },
     instagramUrl: {
-      value: "",
+      value: "https://www.instagram.com/fitphysio.np/",
     },
     linkedinUrl: {
-      value: "",
+      value: "https://www.linkedin.com/company/fitphysio-np/",
     },
     tiktokUrl: {
       value: "",

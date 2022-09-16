@@ -1,6 +1,7 @@
 import { FC } from "react";
 import data from "../../utilities/data";
 import classes from "./therapist.module.css";
+import ListGroup from "react-bootstrap/ListGroup";
 
 const Therapist: FC = () => {
   return (
@@ -8,15 +9,15 @@ const Therapist: FC = () => {
       <h5 className={classes["therapist-header"]}>OUR THERAPIST</h5>
       <hr />
       <h5>Coach Prashansa</h5>
-      <ul>
+      <ListGroup variant="flush">
         {data.therapist.map((d) => {
           return (
-            <li className={classes["therapist-list-item"]} key={d.key}>
+            <ListGroup.Item className={classes["therapist-list-item"]} key={d.key}>
               {d.value}
-            </li>
+            </ListGroup.Item>
           );
         })}
-      </ul>
+      </ListGroup>
     </div>
   );
 };
