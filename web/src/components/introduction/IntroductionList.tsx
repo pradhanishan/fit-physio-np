@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { ListGroup } from "react-bootstrap";
 import IntroductionListItem from "./IntroductionListItem";
 
 interface IIntroductionListProps {
@@ -7,11 +8,11 @@ interface IIntroductionListProps {
 
 const IntroductionList: FC<IIntroductionListProps> = (props) => {
   return (
-    <ul>
+    <ListGroup>
       {props.points.map((point) => {
         return <IntroductionListItem key={point.key} value={point.value} />;
       })}
-    </ul>
+    </ListGroup>
   );
 };
 

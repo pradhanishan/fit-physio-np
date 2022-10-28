@@ -1,3 +1,5 @@
 .list-item {
   list-style: none;
+  background-color: var(--c-white);
+  color: var(--c-black);
 }

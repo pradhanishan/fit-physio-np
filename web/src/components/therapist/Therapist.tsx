@@ -9,7 +9,7 @@ const Therapist: FC = () => {
       <h5 className={classes["therapist-header"]}>OUR THERAPIST</h5>
       <hr />
       <h5>Coach Prashansa</h5>
-      <ListGroup variant="flush">
+      <ListGroup>
         {data.therapist.map((d) => {
           return (
             <ListGroup.Item className={classes["therapist-list-item"]} key={d.key}>
